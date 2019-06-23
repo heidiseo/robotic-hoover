@@ -38,5 +38,5 @@ directions.each do |direction|
     grid[current_x][current_y] = 0
   end
 end
-print "#{current_x} #{current_y}\n"
-print "#{counter}\n"
+print "Current hoover position: #{current_x} #{current_y}\n"
+print "Number of dirts cleaned: #{counter}\n"
