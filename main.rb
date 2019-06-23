@@ -1,5 +1,5 @@
 input = []
-IO.foreach('input.txt') do |line|
+IO.foreach(ARGV[0]) do |line|
   input << line.delete!("\n")
 end
 
